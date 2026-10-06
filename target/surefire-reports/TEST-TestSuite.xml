@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="14.351" tests="6" errors="0" skipped="2" failures="4">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\NeerajBhatia\eclipse-workspace\SeleniumFrameworkPractice\target\test-classes;C:\Users\NeerajBhatia\eclipse-workspace\SeleniumFrameworkPractice\target\classes;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-java\4.49.0\selenium-java-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-api\4.49.0\selenium-api-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.49.0\selenium-chrome-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.49.0\selenium-chromium-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-json\4.49.0\selenium-json-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.49.0\selenium-manager-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.49.0\selenium-devtools-latest-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v151\4.49.0\selenium-devtools-v151-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v152\4.49.0\selenium-devtools-v152-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.49.0\selenium-devtools-v153-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.49.0\selenium-edge-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.49.0\selenium-firefox-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-http\4.49.0\selenium-http-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.49.0\selenium-ie-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.49.0\selenium-remote-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\guava\guava\33.7.1-jre\guava-33.7.1-jre.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\net\bytebuddy\byte-buddy\1.18.13\byte-buddy-1.18.13.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-os\4.49.0\selenium-os-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.49.0\selenium-safari-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-support\4.49.0\selenium-support-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\NeerajBhatia\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\NeerajBhatia\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\NeerajBhatia\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\NeerajBhatia\.m2\repository\tools\jackson\core\jackson-databind\3.2.2\jackson-databind-3.2.2.jar;C:\Users\NeerajBhatia\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\NeerajBhatia\.m2\repository\tools\jackson\core\jackson-core\3.2.2\jackson-core-3.2.2.jar;C:\Users\NeerajBhatia\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\NeerajBhatia\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\NeerajBhatia\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\NeerajBhatia\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\NeerajBhatia\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\NeerajBhatia\AppData\Local\Temp\surefire9090965871889128623\surefirebooter-20260928135433071_3.jar C:\Users\NeerajBhatia\AppData\Local\Temp\surefire9090965871889128623 2026-09-28T13-54-32_960-jvmRun1 surefire-20260928135433071_1tmp surefire_0-20260928135433071_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\NeerajBhatia\eclipse-workspace\SeleniumFrameworkPractice\target\test-classes;C:\Users\NeerajBhatia\eclipse-workspace\SeleniumFrameworkPractice\target\classes;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-java\4.49.0\selenium-java-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-api\4.49.0\selenium-api-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.49.0\selenium-chrome-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.49.0\selenium-chromium-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-json\4.49.0\selenium-json-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.49.0\selenium-manager-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.49.0\selenium-devtools-latest-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v151\4.49.0\selenium-devtools-v151-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v152\4.49.0\selenium-devtools-v152-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v153\4.49.0\selenium-devtools-v153-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.49.0\selenium-edge-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.49.0\selenium-firefox-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-http\4.49.0\selenium-http-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.49.0\selenium-ie-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.49.0\selenium-remote-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\guava\guava\33.7.1-jre\guava-33.7.1-jre.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\errorprone\error_prone_annotations\2.50.0\error_prone_annotations-2.50.0.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\NeerajBhatia\.m2\repository\net\bytebuddy\byte-buddy\1.18.13\byte-buddy-1.18.13.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-os\4.49.0\selenium-os-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.49.0\selenium-safari-driver-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\seleniumhq\selenium\selenium-support\4.49.0\selenium-support-4.49.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\NeerajBhatia\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\NeerajBhatia\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\NeerajBhatia\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\NeerajBhatia\.m2\repository\commons-io\commons-io\2.22.0\commons-io-2.22.0.jar;C:\Users\NeerajBhatia\.m2\repository\tools\jackson\core\jackson-databind\3.2.2\jackson-databind-3.2.2.jar;C:\Users\NeerajBhatia\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\NeerajBhatia\.m2\repository\tools\jackson\core\jackson-core\3.2.2\jackson-core-3.2.2.jar;C:\Users\NeerajBhatia\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\NeerajBhatia\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\NeerajBhatia\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\NeerajBhatia\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\NeerajBhatia\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\NeerajBhatia\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\NeerajBhatia"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\NeerajBhatia\eclipse-workspace\SeleniumFrameworkPractice"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\NeerajBhatia\AppData\Local\Temp\surefire9090965871889128623\surefirebooter-20260928135433071_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="NeerajBhatia"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="ChromeHeadless"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\NeerajBhatia\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NEERAJ~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\NeerajBhatia\eclipse-workspace\SeleniumFrameworkPractice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\NeerajBhatia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Maven\apache-maven-3.9.16\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="LoginerrorValidation" classname="ErrorValidationTest" time="1.386">
+    <failure message="element click intercepted: Element is not clickable at point (381, 728)&#10;  (Session info: chrome=153.0.8010.53)&#10;Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7c005ca5ff0c6c8b8216423c3bc58097, clickElement {id=f.B6BB03BBBE51EA8891437C69BE833A01.d.FA1F3189801E45FA3C864FC1070F5CE8.e.9}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51563}, goog:processID: 29120, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51563/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (7c005ca5ff0c6c8b8216423c3bc58097)] -&gt; id: login]&#10;Session ID: 7c005ca5ff0c6c8b8216423c3bc58097" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (381, 728)
+  (Session info: chrome=153.0.8010.53)
+Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c005ca5ff0c6c8b8216423c3bc58097, clickElement {id=f.B6BB03BBBE51EA8891437C69BE833A01.d.FA1F3189801E45FA3C864FC1070F5CE8.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51563}, goog:processID: 29120, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51563/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7c005ca5ff0c6c8b8216423c3bc58097)] -> id: login]
+Session ID: 7c005ca5ff0c6c8b8216423c3bc58097
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at PageObjectTestFiles.LandingPage.loginIntoApplication(LandingPage.java:38)
+	at ErrorValidationTest.LoginerrorValidation(ErrorValidationTest.java:33)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="ProductErrorValidation" classname="ErrorValidationTest" time="0.0">
+    <skipped message="element click intercepted: Element is not clickable at point (381, 653)&#10;  (Session info: chrome=153.0.8010.53)&#10;Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6989cc1e5ded49fb513aaad4c64ba076, clickElement {id=f.588E39F08C4E43BA8AD8C68A2E969C73.d.2E2305BA0AD411703548FE7259851E8E.e.9}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52842}, goog:processID: 45772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52842/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (6989cc1e5ded49fb513aaad4c64ba076)] -&gt; id: login]&#10;Session ID: 6989cc1e5ded49fb513aaad4c64ba076"/>
+    <system-err><![CDATA[Sept 28, 2026 1:54:39 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1215)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:871)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:812)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:1002)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1439)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1384)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1384)
+
+]]></system-err>
+  </testcase>
+  <testcase name="ProductErrorValidation" classname="ErrorValidationTest" time="1.551">
+    <failure message="element click intercepted: Element is not clickable at point (381, 600)&#10;  (Session info: chrome=153.0.8010.53)&#10;Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [0a547644cb9e4efbe452ac485ce7f055, clickElement {id=f.9D919DEF521538367423C77B7C362456.d.E2E0477FF45EDB16532603AF28DD9CB7.e.5}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52419}, goog:processID: 25820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52419/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (0a547644cb9e4efbe452ac485ce7f055)] -&gt; id: login]&#10;Session ID: 0a547644cb9e4efbe452ac485ce7f055" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (381, 600)
+  (Session info: chrome=153.0.8010.53)
+Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a547644cb9e4efbe452ac485ce7f055, clickElement {id=f.9D919DEF521538367423C77B7C362456.d.E2E0477FF45EDB16532603AF28DD9CB7.e.5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52419}, goog:processID: 25820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52419/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0a547644cb9e4efbe452ac485ce7f055)] -> id: login]
+Session ID: 0a547644cb9e4efbe452ac485ce7f055
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at PageObjectTestFiles.LandingPage.loginIntoApplication(LandingPage.java:38)
+	at ErrorValidationTest.ProductErrorValidation(ErrorValidationTest.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+  </testcase>
+  <testcase name="submitOrderTest[{userName=bhatianeeraj86@gmail.com, password=Test@123, productName=ZARA COAT 3}](1)" classname="SubmitOrderTest" time="1.522">
+    <failure message="element click intercepted: Element is not clickable at point (381, 618)&#10;  (Session info: chrome=153.0.8010.53)&#10;Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a1264147391cd2662e8dac49b656863a, clickElement {id=f.A17BEC839C41EDCEF758469E1B2D6488.d.76ECD575A843DD393CFBA464986B0DB4.e.9}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51562}, goog:processID: 7940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51562/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (a1264147391cd2662e8dac49b656863a)] -&gt; id: login]&#10;Session ID: a1264147391cd2662e8dac49b656863a" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (381, 618)
+  (Session info: chrome=153.0.8010.53)
+Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1264147391cd2662e8dac49b656863a, clickElement {id=f.A17BEC839C41EDCEF758469E1B2D6488.d.76ECD575A843DD393CFBA464986B0DB4.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51562}, goog:processID: 7940, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51562/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a1264147391cd2662e8dac49b656863a)] -> id: login]
+Session ID: a1264147391cd2662e8dac49b656863a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at PageObjectTestFiles.LandingPage.loginIntoApplication(LandingPage.java:38)
+	at SubmitOrderTest.submitOrderTest(SubmitOrderTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+    <system-err><![CDATA[Sept 28, 2026 1:54:38 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1215)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:871)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:812)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:1002)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1439)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1384)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1384)
+
+]]></system-err>
+  </testcase>
+  <testcase name="submitOrderTest[{userName=bhatianeeraj98@gmail.com, password=Home@496, productName=IPHONE 13 PRO}](2)" classname="SubmitOrderTest" time="1.556">
+    <failure message="element click intercepted: Element is not clickable at point (381, 606)&#10;  (Session info: chrome=153.0.8010.53)&#10;Build info: version: &apos;4.49.0&apos;, revision: &apos;bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [91f2e4cbed3f2f40dcdbc0a4644687db, clickElement {id=f.AE88D362B20B41F2315BA532A7F2F55F.d.7210BB1C874BD3E943BD158A85C0DAB4.e.9}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59852}, goog:processID: 36116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59852/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (91f2e4cbed3f2f40dcdbc0a4644687db)] -&gt; id: login]&#10;Session ID: 91f2e4cbed3f2f40dcdbc0a4644687db" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (381, 606)
+  (Session info: chrome=153.0.8010.53)
+Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [91f2e4cbed3f2f40dcdbc0a4644687db, clickElement {id=f.AE88D362B20B41F2315BA532A7F2F55F.d.7210BB1C874BD3E943BD158A85C0DAB4.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 153.0.8010.53, chrome: {chromedriverVersion: 153.0.8010.52 (78e5e45d4bb4..., userDataDir: C:\Users\NEERAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59852}, goog:processID: 36116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59852/devtoo..., se:cdpVersion: 153.0.8010.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (91f2e4cbed3f2f40dcdbc0a4644687db)] -> id: login]
+Session ID: 91f2e4cbed3f2f40dcdbc0a4644687db
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at PageObjectTestFiles.LandingPage.loginIntoApplication(LandingPage.java:38)
+	at SubmitOrderTest.submitOrderTest(SubmitOrderTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+    <system-err><![CDATA[Sept 28, 2026 1:54:41 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1215)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:871)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:812)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:1002)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1439)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1384)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1384)
+
+]]></system-err>
+  </testcase>
+  <testcase name="orderHistoryTest" classname="SubmitOrderTest" time="0.0">
+    <skipped message="Method SubmitOrderTest.orderHistoryTest() on instance SubmitOrderTest@53aac487 depends on not successfully finished methods &#10;[SubmitOrderTest.submitOrderTest() on instance SubmitOrderTest@53aac487]"/>
+    <system-err><![CDATA[Sept 28, 2026 1:54:43 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1215)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:871)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:812)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:1002)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1439)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1384)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1384)
+
+]]></system-err>
+  </testcase>
+</testsuite>
