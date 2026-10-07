@@ -57,14 +57,7 @@
     <version>5.1.2</version>
     <scope>compile</scope>
 </dependency>
-
- 	<dependency>
- 		<groupId>rahulShettyorg</groupId>
- 		<artifactId>SeleniumFrameworkDesign</artifactId>
- 		<version>0.0.1-SNAPSHOT</version>
- 	</dependency>
- </dependencies>
-
+</dependencies>
 <profiles>
 <profile>
 <id>Regression</id>
